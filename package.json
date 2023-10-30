@@ -49,8 +49,7 @@
     "test-watch": "jest --watch",
     "test-coverage": "jest --coverage",
     "test-ci": "npm run test && npm run coveralls",
-    "coveralls": "npm run test-coverage && cat ./coverage/lcov.info | coveralls",
-    "postinstall": "npm run build"
+    "coveralls": "npm run test-coverage && cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
